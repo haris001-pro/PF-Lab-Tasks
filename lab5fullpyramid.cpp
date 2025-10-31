@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+//Using for loop to print a full pyramid
+int main() {
+   for (int i=1; i<=5; i++){
+         for (int j=1; j<=5-i; j++) {
+                cout << " ";
+         }
+         for (int k=1; k<=i; k++) {
+                cout << " *";
+         }
+         cout << endl;  // Move to the next line after each row
+   }
+
+    return 0;
+}
